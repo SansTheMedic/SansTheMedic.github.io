@@ -1,0 +1,2 @@
+<h3>Spy party; modernised chess</h3>
+<p class="articlepreviewtext">Spy Party is intended to be almost the new chess or go, the sort of game you sink time into mastering over years of play. It's quite interesting, actually.</p>

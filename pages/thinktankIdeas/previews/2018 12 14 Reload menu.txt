@@ -1,0 +1,1 @@
+Reloading systems suffer almost chronic issues when it comes to handling multiple interchangable ammo types. There are many many possible solutions, and I want to offer my two shells.

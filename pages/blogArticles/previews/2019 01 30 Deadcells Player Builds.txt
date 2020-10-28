@@ -1,0 +1,2 @@
+<h3>Dead Cells Playstyles</h3>
+<p class="articlepreviewtext">Dead cells has a LOT of weapons, and it's intentionally trying to make you deal with new styles each run. But that HAS caused development issues.</p>

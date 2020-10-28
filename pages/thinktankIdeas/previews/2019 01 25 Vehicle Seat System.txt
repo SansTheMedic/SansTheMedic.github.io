@@ -1,0 +1,1 @@
+Many seated vehicles like trucks and APCs always have an issue with how much freedom the player has in choosing where to sit. It's time to fix that.

@@ -1,0 +1,84 @@
+<h3>This was originally going to be done as my computer science NEA for GCSE, however sadly due to limited time and the game's complexity, it had to be abandoned.</h3>
+
+<p>Gary Gygax is the co-creator of the hit pen and paper RPG, Dungeons and Dragons (D&D). It's fame and reputation are well 
+    known across the world, but what is less known are the numerous official D&D magazines. In one issue 100 of the Dragon
+    Magazine, one of the 2 major ones; Gary Gygax laid out over 7 pages the official ruleset for Dragonchess.
+</p>
+
+<div style="text-align: center;">
+    <img src="images\gamesImages\DragonChess1.png">
+</div>
+
+<p>15 unit types, 84 total pieces, 3 seperate boards; dragonchess was a beast of a game to build and play. And I'm not
+    exactly talking for the developers when it comes to the building. The players would have to be the ones to make the
+    game so they could play it. Because Dragonchess was unveiled in Dragon Magazine, it did not come with any parts of an
+    actual board or pieces; nor were such things ever released; meaning players would have to construct them on their own.
+    That, in my personal oppinion, is a big reason why Dragonchess sort of faded into obscurity and definitely never
+    took off, with the only real mention of it within mainstream D&D playerbase being a very simple, very useless object
+    that can be "played", in honestly the world's loosest sense of the world.
+</p>
+
+<p>Honestly I feel that if the internet had been closer back in 1985 (When Dragon Magazine #100 was published) to what it
+    is now, Dragonchess would have had a good chance to take off from people creating online versions that would allow
+    people to not have to build the board and pieces physically themselves; but alas it was not the case at the time and as
+    such there never was a chance for the poor chess variant.
+</p>
+
+<p>There is only ONE version of digital dragonchess whatsoever that I could find is a <a href="http://dragonchess.sourceforge.net/index.html">small downloadable version</a> that hasn't
+    been touched since early in <i>2003</i>, which is okay but absolutely not very good. In fact, not only is that the only
+    digital dragonchess around but if you search dragonchess on the internet the first actual game you get is a completely
+    different, non-D&D related, and frankly rather ugly and boring looking game by the same name.
+</p>
+
+<div style="text-align: center;">
+    <img src="images\gamesImages\DragonChess2.png">
+</div>
+
+<p>So in the end, there is no good way to play this cool game. My hope is to fix that.</p>
+
+<p>That's why, for my Computer Science A-level NEA task, I decided to work on creating my own browser based online Dragonchess
+    service. Bringing the game to life on the internet would be the thing that the game really deserved honestly, since it
+    is a genuinely fun experience from the few games I've played of it. A bit confusing with all of the rules sure, but
+    still fun.
+</p>
+
+<p>I plan for the service to offer a large number of lobbies with special 3 word combination codes as the passwords for the
+    lobby that players can send to a friend to join; allow the players to play the game securely and use systems on the
+    server side to ensure players don't cheat. The game should also store stat scores for certain things like games played
+    and wins.
+</p>
+
+<p>The server will ONLY store the user's Username, Email, and Hash, in order to ensure the players' accounts are protected
+    and to comply with the Data Protection Act of 1998. The Email is stored in order to give players a way to access their
+    account if they forget their password.
+</p>
+
+<p>The Object relationships of the game should look something like this:</p>
+
+<div style="text-align: center;">
+    <img src="images\gamesImages\NEA Object relationships chart.png" width="50%" height="auto">
+</div>
+
+<p>And the database relationships, which is much simpler, should look like this:</p>
+
+<div style="text-align: center;">
+    <img src="images\gamesImages\NEA database relationship chart.png">
+</div>
+
+<p>The board of the game is held in 4 quadrants. The top right one is the sky board, bottom left is land, bottom right is
+    the underground/underdark/whatever it is to be called, and the top right contains a move history. Move history is not
+    planned to be saved in the initial goals, but if I have time in the project I will try to do so as a stretch goal.
+</p>
+
+<p>Other stretch goals for if I complete the main system will include:</p>
+<ul>
+    <li>Quick play system for those of us who have no friends</li>
+    <li>Global/reigonal chat for players to talk to one another</li>
+    <li>Client chosen skins for their pieces so they can play the armies they want</li>
+    <li>Board editor so players can make fun new scenarios to play against their friends with, recreate other matches, or
+        just fill the board with dragons and meme
+    </li>
+    <li>Spectators so games can be watched by other friends. This could possibly be extended into long lasting lobbies where
+        multiple players can all join and will be able to play in turns and watch (think Smash Bros Ultimate)
+    </li>
+</ul>

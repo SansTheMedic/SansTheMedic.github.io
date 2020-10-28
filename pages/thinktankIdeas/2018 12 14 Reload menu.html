@@ -1,0 +1,59 @@
+<h2>The History</h2>
+
+<p>Normally in video games, you're only ever given one ammo type for a weapon. If you're able to fire variants to that,
+    most of the time that is definied by the weapon itself (typically a weapon upgrade tree or attachment system). There
+    are of course still many games that do allow multiple ammo types but their systems for doing it may be awkward at times.
+</p>
+
+<div style="text-align: center;"><img src="images\thinktankSketches\Deus ex weapon mod menu.jpg" width="50%" height="auto"></div>
+
+<p>In games like terraria, you have a LOT of ammo types to choose from for weapons, however if you're carrying multiple
+    for the same weapon (eg both jester and flame arrows for your bow) you'll encounter the problem of how Terraria chooses
+    which ammo it uses. It's all dependent on the inventory slot; so if you need to switch from one ammo type to another
+    you have to open your inventory, select the ammo you want to use, switch it's position with the one you had just been
+    using, possibly close your inventory, and THEN finally be able to continue shooting. Now, in singleplayer, if you have
+    the option that makes the game pause when you're in your escape menu - which can be annoying to have open simply because
+    there are times you want the menu open but the game still going like when you're fishing - enabled it's fine; but in
+    multiplayer which many people will want to play in there is no way to pause the fight so you're at a massive disadvantage.
+</p>
+
+<p>Bohemia Interactive's ARMA 3 uses a very good solution that comes from it's action menu. See, when you press the scroll
+    button (often labelled as "mouse 3") a menu that lists a bunch of actions the player can do in that current location
+    such as open inventory, open doors, get in a number of seats for a vehicle, use medical supplies to heal oneself, and
+    reload or switch ammo type. This action menu can even be scripted to add new items, as seen (blurily) in the image below.
+    There two real downsides to that system though. The first is how you would need a bit more than just being able to change
+    ammo type to fully justify the system's creation; and the second is that it still isn't fully realistic because of how
+    for weapons like shotguns or revolvers you cannot load more than one of each type of ammo into it.
+</p>
+
+<div style="text-align: center;"><img src="images\thinktankSketches\ARMA3 action menu.jpg" width="50%" height="auto"></div>
+
+<h2>The Idea</h2>
+
+<p>My idea hopes to remedy that latter issue while still giving a rather simple and on the fly method of reloading. Here's
+    how it works:
+</p>
+
+<p>When the player reloads they'r greeted with a small menu, a transparent one to not too greatly bring the player out of
+    the game (such as the one shown below, Garry's mod's Fire Arms: Source system). In that menu the player would be given
+    all the ammo types that they have along with how much they have, and using hotkeys would select which ammo type they
+    wanted to load. For shotguns and revolvers and other such weapons, they'd repeat the selection the amount of times needed
+    to fill the weapon OR press escape or some other key to only load the weapon partially.
+</p>
+
+<div style="text-align: center;"><img src="images\thinktankSketches\FAS 2.0 reload.jpg" width="50%" height="auto"></div>
+
+<p>This idea does come with a few issues; the main one of which is how since the hotkeys would likely be best keyed to
+    the number keys or a numpad, the player would have to either stop moving or turning since they would likely have to
+    take their hand off of either the mouse of the movement keys. That being said, this could be symbolic of how if it
+    were real, the person reloading would have to put some of their focus into doing said reloading and take it out of
+    moving or looking around. Even then, with the explaination, it may not be fun for the player, which is something that
+    should always take more importance than realism and making sense...
+</p>
+
+<p>Another issue caused is from how the animation of the reload would have to be paused at parts or there would need to be
+    multiple animations for the reload. the reason for this is because the player may need a moment to decide which ammo
+    type they wish to use, and so the animation will have to pause so it's not reloading before the player had decided. An
+    alternate solution COULD be to force the player to decide in that timeframe or suffer some penalty but that is frankly
+    stupid and would not be fun for the player so it's far for the best that not be the solution.
+</p>

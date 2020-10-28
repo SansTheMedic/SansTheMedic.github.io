@@ -1,0 +1,2 @@
+<h3>Celeste's dash mechanic</h3>
+<p class="articlepreviewtext">Celeste's dash mechanic is the main movement mechanic for the game, and a hell of a lot of work was put in to make it as good as possible</p>

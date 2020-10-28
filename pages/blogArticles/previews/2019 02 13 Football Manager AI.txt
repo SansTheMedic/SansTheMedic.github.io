@@ -1,0 +1,2 @@
+<h3>The AI of football manager</h3>
+<p class="articlepreviewtext">25 years of work to make one VERY complex AI system that is still being worked on!</p>

@@ -1,0 +1,2 @@
+<h3>The Elite Dangerous Galaxy Forge</h3>
+<p class='articleprevietext'>The creation system for Elite Dangerous' galaxy</p>
