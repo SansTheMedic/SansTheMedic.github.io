@@ -36,7 +36,7 @@ def GetData(IdeaName):
     game_path = ("thinktankIdeas\\\\" + IdeaName)
     
     # Finds path to preview content file
-    preview_path = ("C:\\source\\jackportfolio\\pages\\thinkTankIdeas\\previews\\" + IdeaName + ".txt")
+    preview_path = ("C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\thinkTankIdeas\\previews\\" + IdeaName + ".txt")
 
     # Opens appropriate preview file
     with open(preview_path,"r") as preview_file:
@@ -54,7 +54,7 @@ def GetData(IdeaName):
 def WriteToGamesPage(HtmlContent):
     
     # Opens thinktank page file
-    with open("C:\\source\\jackportfolio\\pages\\thinktank.html", "w") as blog_page:
+    with open("C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\thinktank.html", "w") as blog_page:
 
         # Overwrites file with new HTML content to display
         blog_page.write(HtmlContent)
@@ -72,7 +72,7 @@ def HtmlSticher(PreviewTemplate, StartLine, EndLine):
     html_content += StartLine
 
     # Finds all ideas in thinktank idea folder
-    ideas = [name for name in os.listdir('C:\\source\\jackportfolio\\pages\\thinkTankIdeas')]
+    ideas = [name for name in os.listdir('C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\thinkTankIdeas')]
     
     # Orders all ideas in date order, newest first
     ideas.sort(reverse = True)

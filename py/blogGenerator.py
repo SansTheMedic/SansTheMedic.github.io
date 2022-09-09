@@ -43,7 +43,7 @@ def GetData(ArticleName):
     article_path = ("blogArticles\\\\" + ArticleName)
     
     # Finds path to preview content file
-    preview_path = ("C:\\source\\jackportfolio\\pages\\blogArticles\\previews\\" + ArticleName + ".txt")
+    preview_path = ("C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\blogArticles\\previews\\" + ArticleName + ".txt")
 
     # Opens appropriate preview file
     with open(preview_path,"r") as preview_file:
@@ -61,7 +61,7 @@ def GetData(ArticleName):
 def WriteToBlogPage(HtmlContent):
     
     # Opens blog page file
-    with open("C:\\source\\jackportfolio\\pages\\blog.html", "w") as blog_page:
+    with open("C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\blog.html", "w") as blog_page:
 
         # Overwrites file with new HTML content to display
         blog_page.write(HtmlContent)
@@ -79,7 +79,7 @@ def HtmlSticher(ArticleTemplate, StartLine, EndLine):
     html_content += StartLine
 
     # Finds all articles in article folder
-    articles = [name for name in os.listdir('C:\\source\\jackportfolio\\pages\\blogArticles')]
+    articles = [name for name in os.listdir('C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\blogArticles')]
     
     # Orders all articles in date order, newest first
     articles.sort(reverse = True)

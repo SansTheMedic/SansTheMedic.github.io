@@ -50,7 +50,7 @@ def getDocData(DocName):
     doc_path = ("stuffDocs\\\\" + DocName)
     
     # Finds path to preview content file
-    preview_path = ("C:\\source\\jackportfolio\\pages\\stuffDocs\\previews\\" + DocName + ".txt")
+    preview_path = ("C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\stuffDocs\\previews\\" + DocName + ".txt")
 
     # Opens appropriate preview file
     with open(preview_path,"r") as preview_file:
@@ -99,7 +99,7 @@ def fillDocTemplate(PreviewTemplate, IconLink, PreviewText, DocLink):
 def WriteToStuffPage(HtmlContent):
     
     # Opens thinktank page file
-    with open("C:\\source\\jackportfolio\\pages\\stuff.html", "w") as blog_page:
+    with open("C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\stuff.html", "w") as blog_page:
 
         # Overwrites file with new HTML content to display
         blog_page.write(HtmlContent)
@@ -112,10 +112,10 @@ def WriteToStuffPage(HtmlContent):
 def getFiles():
     
     # Gets all document files
-    document_files = [name for name in os.listdir('C:\\source\\jackportfolio\\pages\\stuffDocs')]
+    document_files = [name for name in os.listdir('C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\pages\\stuffDocs')]
 
     # Gets all image files
-    image_files = [name for name in os.listdir('C:\\source\\jackportfolio\\images\\stuffImages')]
+    image_files = [name for name in os.listdir('C:\\Users\\jackwork\\Documents\\GitHub\\SansTheMedic.github.io\\images\\stuffImages')]
 
     # Empty list to put all files into
     all_files = []
